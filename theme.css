@@ -49,9 +49,15 @@ h2
 	position: center;
 	border: .5vw solid white;
 	margin-top: 20vh;
+	margin-bottom: 10vh;
 	padding: 3vw;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+	min-height: 300px;
 
+}
+.minH
+{
+	min-height: 300px;
 }
 div:target {
   padding-top: 140px; 
