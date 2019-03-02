@@ -15,7 +15,7 @@ function randomInfo() {
       randomContent = "Random Fact: I prefer some coffee with my mug of cream <br> -Wei";
       break;
     case 5:
-      randomContent = "I would like to be rewarded with Sushi</br> -Wei";
+      randomContent = "I would like to be rewarded for hardwork with Sushi</br> -Wei";
       break;
     case 6:
       randomContent = "Always remember that true beauty comes from within - from within bottles, jars, compacts, and tubes.</br>-Peter's Almanac";
@@ -30,7 +30,7 @@ function randomInfo() {
       randomContent = "All right, let's not panic. I'll make the money back by selling one of my livers. I can get by with one!.</br> -Homer Simpson";
       break;
     case 10:
-      randomContent = "All right, let's not panic. I'll make the money back by selling one of my livers. I can get by with one!</br> -Unknown";
+      randomContent = "Before you judge a man, walk a mile in his shoes. After that who cares?... He’s a mile away and you’ve got his shoes!</br> -Unknown";
       break;
 
     default:
