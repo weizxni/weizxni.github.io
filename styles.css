@@ -87,7 +87,9 @@ body{
 
 }
 
-
+.title_photo{
+  animation: fadein 2s;
+}
 
 .profile_img{
   max-width: 130px;
@@ -183,4 +185,5 @@ font-size: 11px;
 }
 .randomStuff{
   margin:10px;
+  font-size: 10px;
 }
