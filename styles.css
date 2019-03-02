@@ -42,7 +42,7 @@ background-size:120vh;}
 
   .title_section{
     padding-top: 50px;
-    max-height: 100vh;
+    min-height: 100vh;
 
   }
 
@@ -184,6 +184,6 @@ hr{
 font-size: 11px;
 }
 .randomStuff{
-  margin:10px;
+  margin:12px;
   font-size: 10px;
 }
