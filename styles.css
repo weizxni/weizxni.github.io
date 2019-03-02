@@ -38,15 +38,21 @@ body{
   opacity: .2;
   position:absolute;
   height: 110vh;
-background-size:120vh;}
+  background-size:120vh;}
 
   .title_section{
     padding-top: 50px;
-    min-height: 100vh;
+    max-height: none;
 
   }
 
 
+  }
+  @media screen and (max-width: 767px) and (orientation:landscape)
+  {
+    .title_photo{
+      background-size:120vw;
+    }
   }
 /* BIG Screens*/
 @media screen and (min-width: 1200px)
