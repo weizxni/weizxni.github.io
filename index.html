@@ -1,165 +1,271 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	
-	<link rel="stylesheet" type="text/css" href="theme.css">
-	<title> ---- Wei ----- </title>
+<html lang="en" dir="ltr">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wei Zhang</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
-	<div id="backg">
-	</div>
-	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-lav">
-	  <a class="navbar-brand" href="#"><img id="icon" src="images/W.jpg"></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mr-auto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#proj">Projects</a>
+        <a class="nav-item nav-link" href="#work">Work Experiance</a>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto ">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html#intro">Intro</a>
-	      </li>
+      </div>
+    </div>
+  </nav>
+  <div class="title_section row">
+    <div class="col-md-6 title_photo">
+    </div>
+    <div class="col-md-6 title_section_child">
 
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html#skills">Skills</a>
-	      </li>
+      <div class="title_inner1">
+        <div class="profile_thumbnail">
+          <img class="profile_img" src="images/profile2.jpg" alt="">
+        </div>
+        <h2>Wei Zhang</h2>
+        - Web Developer - Software Tester -
+        <hr />
+        <table>
+          <tr>
+            <th><i class="fas fa-phone-volume"></i></th>
+            <th>(443) 760-1547</th>
+          </tr>
+          <tr>
+            <th><i class="fas fa-map-marker-alt"></i></th>
+            <th>Germantown, Maryland</th>
+          </tr>
+          <tr>
+            <th><i class="far fa-envelope"></i></th>
+            <th>Zhang.wei0392@gmail.com</th>
+          </tr>
 
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html#jobs">Experiance</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html#profile">Contact</a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Projects
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Action</a>
-	          <a class="dropdown-item" href="#">Another action</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
-	      </li>
+        </table>
+        <a href=""><span class="fab fa-facebook-square icon_link"></span></a>
+        <a href=""><span class="fab fa-linkedin icon_link"></span></a>
+        <a href=""><span class="fab fa-github-square icon_link"></span></a>
+      </div>
+      <div class="title_inner1">
+        Let us all be happy, and live within our means, even if we have to borrow the money to do it with.</br> -Artemus Ward
+<span  id="skills"></span>
+      </div>
+    </div>
 
-	      </li>
-	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	    </form>
-	  </div>
-	</nav>
+  </div>
 
+  <!--Skills-->
+  <div class="skill_section sections row" >
+    <div class="col-md-12 skill_header">
+      <h2>Skills</h2>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Web Development</strong><br />HTML, CSS, JavaScript, Bootstrap, AJAX, PHP</p>
+      <p><strong>Database</strong><br />MySQL, Oracle SQL, IBM Mainframe TSO,<br /> PSP (PLSQL Server Pages) , MongoDB </p>
+      <p><strong>Database Design</strong><br />Entity Relational Diagrams, Data Flow Diagrams</p>
+      <p><strong>Software Testing</strong><br />Telerik Test Studio, Selenium, Cross Browser Testing</p>
 
-	<div class="jumbotron jumbotron-fluid minH">
+    </div>
+    <div class="col-md-6">
 
-	 
-	  <div class="container w3-container w3-animate-top " id="banner">
-	    <h1 class="display-4">Hooray You're Here!</h1>
-	    <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    consequat..</p>
-	    <a href="https://www.facebook.com/CorgiPrinceZuko/" class="bannerlink" target="_blank"><img class="img-fluid bannerIMGlink" alt="Responsive image" src="images/Zuko.jpg"></a>
-	    <a href="#" class="bannerlink"><img class="img-fluid bannerIMGlink" alt="Responsive image" src="images/adventure.jpg"></a>
-	  </div>
+      <p><strong>Android Application Development</strong><br />ADT Bundle Eclipse, XML</p>
+      <p><strong>Programming Languages</strong><br />JAVA, PYTHON, Visual Basic for Applications</p>
+      <p><strong>Code Editors</strong><br />NetBeans, Notepad++, Atom, Sublime text</p>
+      <p><strong>Other</strong><br />SharePoint, JIRA, GitHub, Mongo DB Atlas,<span  id="proj"></span><br /> Raspbian for raspberry pi, Red hat Linux</p>
 
+    </div>
+  <!--Projects-->
+  </div>
+<div class="project_section sections row">
+  <div class="col-md-12 work_header">
+    <h2>Projects</h2>
+  </div>
+  <div class="col-md-12 projects" >
+    <p>
+      <strong>Food Blog Site Design (Winter 2018)</strong>
+      <ul>
+        <li>
+          Currently in the Designing Phase, Completed a landing page and skeletons for the other pages
+        </li>
+        <li>
+          Completed in HTML, CSS and Bootstrap
+        </li>
+        <li>
+          <a href="https://weizxni.github.io/WebDevBootcamp2019/projazn/index.html">Click Me!</a>
+        </li>
+      </ul>
+    </p>
+<p>
+  <strong>Gym Game (Winter 2018)</strong>
+  <ul>
+<li>
+  Website to post exercise points to compete with other users
+</li>
+<li>
+  Project hosted on Mongo DB atlas
+</li>
+</ul>
+</p>
 
+<p>
+  <strong>Home Web Server (Summer 2016)</strong>
+  <ul>
+    <li>
+      This is a personal project to learn how to set up my own web server at home
+    </li>
+    <li>
+      Involved learning about port forwarding and setting up SSH to access the Pi remotely
+    </li>
+    <li>
+      The website uses HTML CSS, JavaScript, ajax and PHP to access the MySQL database
+    </li>
+  </ul>
+</p>
+<p>
+  <strong>Smart Plug Website (Spring 2014)</strong>
+  <ul>
+    <li>
+    The purpose of this project was to use SQL, PLSQL, and HTML to create a website with PHP that can add and retrieve data from the database and generate reports.
+    </li>
+    <li>
+      Created ER Diagrams for the database
+    </li>
+    <li>
+      Used SQL to create and populate tables in the database and PLSQL to create procedures and functions
+    </li>
+    <li>
+      The project was sponsored by Constellation Energy
+    </li>
+  </ul>
+</p>
+<p>
+  <strong>Design – Nuclear Department System (Fall 2013)</strong>
+  <ul>
+    <li>
+      Conducted Interviews and created questionnaires to gather information for the analysis phase
+    </li>
+    <li>
+      Created ER Diagrams, Data Flow Diagrams, use cases and requirements documents
+    </li>
+    <li>
+      Analyzed requirements to choose the system acquisition strategy for the design phase<span  id="work"></span>
+    </li>
+  </ul>
+</p>
 
-	</div>
-	<div class="container">
-	  <div class="row">
+  </div>
+</div>
+  <!--Work Experiance-->
+  <div class="work_section sections row">
+    <div class="col-md-12 work_header">
+      <h2>Work Experiance</h2>
+    </div>
+    <div class="col-md-12 work_experiance">
+      <p>
+        <strong>Software Tester, ICFI, Rockville (September 2014 – Present)</strong>
+        <ul>
+          <li>
+            Executed tests for the Web aspects of the FAFSA (Free Application for Federal Student Aid)
+          </li>
+          <li>
+            Updated test case and test procedure documents according to the customer requirements documents
+          </li>
+          <li>
+            Logged and provided screenshots of problems
+          </li>
+          <li>
+            Conducted regression testing for previous cycles and updates
+          </li>
+          <li>
+            Verified data sent from different web sites are populated on the database correctly
+          </li>
+          <li>
+            Participated in peer review and process improvement meetings to improve test documents
+          </li>
+          <li>
+            Conducted queries in an IBM database through TSO
+          </li>
+          <li>
+            Created a solution in excel for the team leads to be able to test status information from multiple workbooks that are located on SharePoint and instantly create documents status documents that can be sent to the clients
+          </li>
+          <li>
+            Created a system where test case traceability is generated and updated automatically in Excel
+          </li>
+          <li>
+            Tested the new FAFSA Application App
+          </li>
+          <li>
+            Review functional Specifications
+          </li>
+          <li>
+            Participated in the introduction of Test studio to automate tests, which uses record and playback as well as manipulating the test case in code
+          </li>
+          <li>
+            Participated in basic training for Selenium
+          </li>
+        </ul>
+      </p>
 
-	    <div class="col-12 col-sm-12 col-md-12 section w3-container w3-animate-left" id="intro">
-		    <div class="col-12 textp oddsec">
-		    	<h2> Introduction </h2>
-		      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		    </div>
-	    </div>
+      <p>
+        <strong>Property Manager Part-time (January 2016 – Present)</strong>
+        <ul>
+          <li>
+            Conducted interviews with potential tenants
+          </li>
+          <li>
+            Edit and explain lease forms
+          </li>
+          <li>
+            Conduct background and credit checks
+          </li>
+          <li>
+            Ensure the property is maintained
+          </li>
+        </ul>
+      </p>
 
+      <p>
+        <strong>Shift Lead, Beijing Wok, Randallstown (May 2008 - September 2014)</strong>
+        <ul>
+          <li>
+            Received orders from customers via in person or by phone and collect payments
+          </li>
+          <li>
+            Communicated customer needs to the backline while also packing orders
+          </li>
+          <li>
+            Kept the front desk orderly and sufficiently stocked
+          </li>
+          <li>
+            Provided translations when needed
+          </li>
+          Assisted with managing store finances
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="row footer">
+    <div class="col-md-12">
+          Last Updated : 03/01/2019 by Wei Zhang
+    </div>
 
-	    <div class="col-12 col-sm-12 col-md-12 section w3-animate-right" id="skills">
-
-		    <div class="col-12 textp evensec">
-		    <h2> Skills </h2>
-		     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		    </div>
-	    </div>
-	    <div class="col-12 col-sm-12 col-md-12 section w3-container w3-animate-left" id="jobs">
-		    <div class="col-12 textp oddsec">
-			    <h2>Experience </h2>
-			     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		    </div>
-	    </div>
-	    <div class="col-12 col-sm-12 col-md-12 w3-animate-right section" id="profile">
-	      <div class="col-12 textp evensec">
-	      <h2>Wei Zhang </h2>
-	      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	  		</div>
-	    </div>
-
-	  </div>
-	  	  <div class="row">
-
-	    <div class="col-12 col-sm-12 col-md-12" id="footer">
-	      <span id="dateN">Date: 06/26/3018</span>
-	      		<div class="container" id ="arrows">
-					<div class="row" id="up-arrow"></div>
-					<div class="row" id="down-arrow"></div>
-    			</div>
-	    </div>
-
-	  </div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</div>
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js">
-    </script>
+  </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="index.js" charset="utf-8"></script>
+
 </html>
