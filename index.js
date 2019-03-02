@@ -38,4 +38,5 @@ function randomInfo() {
   }
 document.querySelector('.randomStuff').innerHTML = randomContent;
 }
+$(".fadeDiv").animate({opacity: 1},3000,"linear");
 randomInfo();

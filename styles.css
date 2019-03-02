@@ -76,6 +76,7 @@ body{
   background-size: 600px;
   overflow: hidden;
   background-repeat: no-repeat;
+
 }
 
 .sections
@@ -94,15 +95,13 @@ body{
 
 }
 
-.title_photo{
-  animation: fadein 2s;
-}
 
 .profile_img{
   max-width: 130px;
 }
 .title_section_child{
   padding:10% 6%;
+
 }
 
 .title_inner1
@@ -114,6 +113,7 @@ body{
   border-radius: 30px;
   color: #7d7d7d;
   margin-bottom: 5%;
+  right: 0px;
 }
 .profile_thumbnail
 {
@@ -193,4 +193,7 @@ font-size: 11px;
 .randomStuff{
   margin:12px;
   font-size: 10px;
+}
+.fadeDiv{
+  opacity: 0;
 }
