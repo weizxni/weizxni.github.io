@@ -36,7 +36,52 @@ function randomInfo() {
     default:
       randomContent = "Its loading... I think... ";
   }
-document.querySelector('.randomStuff').innerHTML = randomContent;
+
+  document.querySelector('.randomStuff').innerHTML = randomContent;
 }
-$(".fadeDiv").animate({opacity: 1},3000,"linear");
+//Fade In on onload
+$(".fadeDiv").animate({
+  opacity: 1
+}, 3000, "swing");
+
+//random stuff
 randomInfo();
+
+$(".header").prepend("<a class='toggler'><i class='far fa-plus-square'></i></a>")
+$(".inner_sections").hide();
+$(document).ready(function() {
+
+  //Open and Close the sections
+  $(".header").click(function(e) {
+    var sectionText = "." + $(this).text().trim();
+    $(sectionText).toggle(300);
+
+    if ($(this).find('.fa-plus-square').length !== 0) {
+      $(this).find(">:first-child").html("<i class='far fa-minus-square'></i>");
+    } else {
+      $(this).find(">:first-child").html("<i class='far fa-plus-square'></i>");
+    }
+
+  });
+
+  //navbar links
+  $(".nav-link").click(function(e) {
+    var sectionText = "." + $(this).text().trim();
+
+    $(sectionText).show(300);
+    if ($(this).find('.fa-plus-square').length !== 0) {
+      $(this).find(">:first-child").html("<i class='far fa-minus-square'></i>");
+    }
+    if(sectionText==".Home")
+    {
+      document.body.scrollTop = 0;
+    }
+    else{
+      var goToPosition = $(sectionText).offset().top - 100;
+      $('html, body').animate({
+    scrollTop: (goToPosition)},100);
+    }
+
+  });
+
+});
