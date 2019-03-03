@@ -67,10 +67,10 @@ $(document).ready(function() {
   //navbar links
   $(".nav-link").click(function(e) {
     var sectionText = "." + $(this).text().trim();
-
+    var sectionHeader = sectionText + "_H";
     $(sectionText).show(300);
-    if ($(this).find('.fa-plus-square').length !== 0) {
-      $(this).find(">:first-child").html("<i class='far fa-minus-square'></i>");
+    if ($(sectionHeader).find('.fa-plus-square').length !== 0) {
+      $(sectionHeader).find(">:first-child").html("<i class='far fa-minus-square'></i>");
     }
     if(sectionText==".Home")
     {
