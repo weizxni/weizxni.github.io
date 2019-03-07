@@ -47,8 +47,10 @@ $(".fadeDiv").animate({
 //random stuff
 randomInfo();
 
-$(".header").prepend("<a class='toggler'><i class='far fa-plus-square'></i></a>")
+$(".header").prepend("<a class='toggler'><i class='far fa-plus-square'></i></a>");
 $(".inner_sections").hide();
+$(".Skills").show();
+$(".Skills_H").find(">:first-child").html("<i class='far fa-minus-square'></i>");
 $(document).ready(function() {
 
   //Open and Close the sections
